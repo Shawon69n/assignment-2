@@ -1,0 +1,41 @@
+ /* section-css */
+section{
+    display: flex;
+    justify-content: center;
+
+}
+
+/* button-css */
+.link-button{
+    text-decoration: none;
+        
+        padding: 10px 40px ; 
+        background-color: rgb(90, 161, 241);
+        border-radius: 8px;
+        color:rgb(255, 235, 235);
+        font-weight: 900;}
+
+        
+
+.margin-padding{
+    margin-top: 100px;
+    margin-right: 100px;
+    padding-left: 100px;
+}        
+
+.img-1st-sec{
+    margin-right: 50px;
+    padding-left: 100px;
+}
+
+/* styles of h and para tag */
+
+.para{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+section h1{
+    color: rgb(39, 129, 231);
+    font-size: 50px;
+}
+
