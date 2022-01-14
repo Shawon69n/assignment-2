@@ -8,12 +8,17 @@ section{
 /* button-css */
 .link-button{
     text-decoration: none;
-        
+        font-size: 18px;
         padding: 10px 40px ; 
         background-color: rgb(90, 161, 241);
         border-radius: 8px;
         color:rgb(255, 235, 235);
         font-weight: 900;}
+        
+        i{
+            padding-left: 10px;
+            
+        }
 
         
 
