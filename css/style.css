@@ -1,3 +1,20 @@
+ /* font-er-style  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+
+/* body-er-style --- */
+body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+background-color: #d3dfdf;
+}
+
+header{
+    margin-top: 50px;
+    margin-left: 90px;
+}
+ 
+ 
+ 
  /* section-css */
 .section-1{
     display: flex;
@@ -12,7 +29,7 @@
         padding: 10px 40px ; 
         margin-left: 100px;
         background-color: rgb(90, 161, 241);
-        border-radius: 8px;
+        border-radius: 20px;
         color:rgb(255, 235, 235);
         font-weight: 900;}
         
@@ -82,7 +99,7 @@ section h1{
 
 
 .border-eikhane{
-    border: 10px solid rgb(206, 232, 241);
+    border: 10px solid rgb(255, 255, 255);
     border-radius: 10px;
     
     width: 300px;
