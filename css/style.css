@@ -94,6 +94,7 @@ section h1{
 
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 20px;
+    column-gap: 0px;
 }
 
 
@@ -125,6 +126,12 @@ color: rgb(130, 143, 130);
 
 /* course-er-css-eikhane --------
 --------- */
+
+.query{
+    margin-left: 100px;
+    
+}
+
 .course-info{
 display: flex;
 
@@ -144,6 +151,67 @@ margin-left: 10px;
 width: 300px;
 height: 300px
 }
+
+
+
+
+.margin-up{
+    margin: 20px;
+    color: cadetblue;
+}
+
+
+    /* Bonus-section-here---start----- --
+    -------------------------- */
+
+    .log-form{
+       display: grid;
+       grid-template-columns: repeat(1 ,1fr);
+        flex-direction: column;
+    }
+    
+
+    .log-form input , button{
+        font-size: 1.5em;
+        margin: 2px;
+        border:1px solid skyblue;
+        border-radius: 2px;
+    }
+
+    .log-form button{
+        background-color: teal;
+        color: whitesmoke;
+        font-weight: 700;
+    }
+
+    .size{
+        width: 40px;
+        margin-left: 50%;
+        justify-content: center;
+    }
+
+    
+
+  
+
+
+
+
+
+
+
+
+    /* Bonus-section-here---end----- --
+    -------------------------- */
+
+
+
+
+
+
+
+
+
 /* course-er-css-eikhane -end--------
 --------- */
 
@@ -159,7 +227,10 @@ height: 300px
     /* 1st-section-er-query-start ---------
     --------------------- */
     .course-container{
-        width: 100%;
+    width: 100%;
+        
+
+
     }
 
 
@@ -167,9 +238,14 @@ height: 300px
     .niche-ay{
         grid-template-columns: repeat(1 , 1fr);
        justify-content: center;
-       margin-right: 90px;
+       margin-right:40px;
+       width: 100%;
+
 
     }
+
+
+
 
  /* 1st-section-er-query-end ---------
     --------------------- */
@@ -195,9 +271,14 @@ height: 300px
        flex-direction: column;
    }
 
+   
+
+
  }
     /* 2nd-section-er-query-end ---------
     --------------------- */
+
+
     
     @media only screen and (min-width:688px) and (max-width:992px) {
         .query{
@@ -207,12 +288,22 @@ height: 300px
        .courses{
            grid-template-columns: repeat(2 , 1fr);
            justify-content: center;
-           margin-left: 150px;
+           margin-left: 10px;
+           
     
        }
        .course{
            flex-direction: column;
        }
+
+       .niche-ay{
+        grid-template-columns: repeat(1 , 1fr);
+       justify-content: center;
+       margin-right:40px;
+       width: 100%;
+
+
+    }
 
     }
 
