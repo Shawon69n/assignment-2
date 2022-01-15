@@ -117,11 +117,9 @@ display: flex;
 
 .item-detail{
 margin-bottom: 25px;
+margin-left: 10px;
 }
 
-.item:hover{
-transform: scale(1.1);
-transition: .3s;
-}
+
 
 
