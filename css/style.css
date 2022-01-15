@@ -16,7 +16,7 @@ header{
  
  
  /* section-css */
-.section-1{
+.course-container{
     display: flex;
     justify-content: center;
 
@@ -84,12 +84,12 @@ section h1{
 /* grid-eikhane ----------
 ----------------------------- */
 
-.item-container{
+.course-container{
     margin-left: 150px;
     padding: 100px;
 }
 
-.items{
+.courses{
     
     display: grid;
 
@@ -108,17 +108,11 @@ section h1{
 
 }
 
-.items{
-    display: grid;
-    grid-template-columns: repeat(3 , 1fr);
-    grid-column-gap: 0px;
-}
 
-.item .item-banner img{
-width: 300px;
-height: 300px
-}
 
+
+/* star-er-rong ------
+-------------- */
 .star-color{
 color: gold;
 }
@@ -127,18 +121,84 @@ color: gold;
 color: rgb(130, 143, 130);
 }
 
-.item-info{
+/* star-er-rong-end ------
+-------------- */
+
+/* course-er-css-eikhane --------
+--------- */
+.course-info{
 display: flex;
 
 }
 
-.item-detail{
+.course-detail{
 margin-bottom: 25px;
 margin-left: 10px;
 }
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-column-gap: 0px;
+}
+
+.course .course-banner img{
+width: 300px;
+height: 300px
+}
+/* course-er-css-eikhane -end--------
+--------- */
+
+/* media-query-eikhane ---------start */
+
+/* for-mobile-display ---
+ --------*/
+
+ @media only screen and (max-width:688px){
+     
 
 
 
 
 
 
+
+    .query{
+        grid-template-columns: repeat(1 , 1fr);
+        justify-content: center;
+        
+ 
+    }
+
+    
+    
+
+
+
+
+
+   .course-container{
+        width: 100%;
+   }
+
+   .courses{
+       grid-template-columns: repeat(1 , 1fr);
+       justify-content: center;
+       margin-right: 90px;
+
+   }
+   .course{
+       flex-direction: column;
+   }
+
+ }
+    
+    
+
+
+
+
+
+
+
+
+/* media-query-eikhane ---------start */
