@@ -1,5 +1,5 @@
  /* section-css */
-section{
+.section-1{
     display: flex;
     justify-content: center;
 
@@ -23,9 +23,9 @@ section{
        }
 
         .zoom-in:hover{
-            transform: scale(1.030);
+            transform: scale(1.0200);
             transform-origin: left;
-            transition:.5s;
+            transition:0.2s;
 
         }
 
@@ -53,4 +53,75 @@ section h1{
     color: rgb(39, 129, 231);
     font-size: 50px;
 }
+
+/* 1st-section-css-end  */
+
+
+/* 2nd-section-start ------------------------------ */
+
+.text-align-center{
+    text-align: center;
+    margin-top: 150px;
+}
+
+/* grid-eikhane ----------
+----------------------------- */
+
+.item-container{
+    margin-left: 150px;
+    padding: 100px;
+}
+
+.items{
+    
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+}
+
+
+.border-eikhane{
+    border: 10px solid rgb(206, 232, 241);
+    border-radius: 10px;
+    
+    width: 300px;
+    height: 500px;
+
+
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-column-gap: 0px;
+}
+
+.item .item-banner img{
+width: 300px;
+height: 300px
+}
+
+.star-color{
+color: gold;
+}
+
+.ronghin{
+color: rgb(130, 143, 130);
+}
+
+.item-info{
+display: flex;
+
+}
+
+.item-detail{
+margin-bottom: 25px;
+}
+
+.item:hover{
+transform: scale(1.1);
+transition: .3s;
+}
+
 
