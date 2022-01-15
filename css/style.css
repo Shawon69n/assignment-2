@@ -5,7 +5,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
 font-family: 'Raleway', sans-serif;
-background-color: #d3dfdf;
+background-color: #effff6;
 }
 
 header{
@@ -99,8 +99,8 @@ section h1{
 
 
 .border-eikhane{
-    border: 10px solid rgb(255, 255, 255);
-    border-radius: 10px;
+    border: 15px solid rgb(236, 246, 255);
+    border-radius: 7px;
     
     width: 300px;
     height: 550px;
