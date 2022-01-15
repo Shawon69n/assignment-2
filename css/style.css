@@ -16,10 +16,12 @@ header{
  
  
  /* section-css */
-.course-container{
-    display: flex;
-    justify-content: center;
+.niche-ay{
+    display: grid;
 
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 60px;
+    
 }
 
 /* button-css start*/
@@ -84,17 +86,14 @@ section h1{
 /* grid-eikhane ----------
 ----------------------------- */
 
-.course-container{
-    margin-left: 150px;
-    padding: 100px;
-}
+
 
 .courses{
     
     display: grid;
 
     grid-template-columns: repeat(3,1fr);
-    grid-row-gap: 30px;
+    grid-row-gap: 20px;
 }
 
 
@@ -157,33 +156,39 @@ height: 300px
      
 
 
-
-
-
-
-
-    .query{
-        grid-template-columns: repeat(1 , 1fr);
-        justify-content: center;
-        
- 
+    /* 1st-section-er-query-start ---------
+    --------------------- */
+    .course-container{
+        width: 100%;
     }
 
+
+
+    .niche-ay{
+        grid-template-columns: repeat(1 , 1fr);
+       justify-content: center;
+       margin-right: 90px;
+
+    }
+
+ /* 1st-section-er-query-end ---------
+    --------------------- */
     
     
 
 
 
+ /* 2nd-section-er-query-start ---------
+    --------------------- */
 
-
-   .course-container{
+   .query{
         width: 100%;
    }
 
    .courses{
        grid-template-columns: repeat(1 , 1fr);
        justify-content: center;
-       margin-right: 90px;
+       margin-left: 30px;
 
    }
    .course{
@@ -191,9 +196,25 @@ height: 300px
    }
 
  }
+    /* 2nd-section-er-query-end ---------
+    --------------------- */
     
+    @media only screen and (min-width:688px) and (max-width:992px) {
+        .query{
+            width: 100%;
+       }
     
+       .courses{
+           grid-template-columns: repeat(2 , 1fr);
+           justify-content: center;
+           margin-left: 150px;
+    
+       }
+       .course{
+           flex-direction: column;
+       }
 
+    }
 
 
 
